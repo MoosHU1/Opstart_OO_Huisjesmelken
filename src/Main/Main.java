@@ -7,7 +7,8 @@ public class Main {
         Persoon p1 = new Persoon ("Ronald Plasterk", 52);
         h1.setHuisbaas(p1);
 
-        System.out.println();
+        System.out.println(p1);
+        System.out.println(h1.toString());
 
     }
 

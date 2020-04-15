@@ -10,10 +10,11 @@ public class Persoon {
 
     }
 
-    public String getNaam() {
-        return naam;
+    @Override
+    public String toString() {
+        return "En heeft huisbaas " +
+                "naam='" + naam + '\'' +
+                ", leeftijd=" + leeftijd +
+                '}';
     }
-
-
-
 }
