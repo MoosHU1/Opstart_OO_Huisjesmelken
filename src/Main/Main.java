@@ -7,8 +7,14 @@ public class Main {
         Persoon p1 = new Persoon ("Ronald Plasterk", 52);
         h1.setHuisbaas(p1);
 
-        System.out.println(p1);
         System.out.println(h1.toString());
+
+        Huis h2 = new Huis ("Vredenburg", 1991);
+        Persoon p2 = new Persoon ("Annie Brouwers", 59);
+        h2.setHuisbaas(p2);
+
+        System.out.println(h2.toString());
+
 
     }
 
